@@ -1,8 +1,9 @@
 # Polaris-4B-Preview-IQ-GGUF
-Repository for associated scripts and files used to make my GGUF quantizations. Check out the associated [hugging face 🤗](https://huggingface.co/dzur658/Polaris-4B-Preview-IQ-GGUF) repository to downloads the quantizations!
+Repository for associated scripts and files used to make my GGUF quantizations for the Polaris-4B preview model. Check out the associated [hugging face 🤗](https://huggingface.co/dzur658/Polaris-4B-Preview-IQ-GGUF) repository to downloads the quantizations!
 
 # Modelfile Settings
 *Note it is incredibly important to use these modelfile settings when running in Olama to preserve the unique characteristics of the Polaris model.*
+**Make sure to replace the `FROM` line path with the path to your gguf file.**
 
 ### Modelfile
 ```
